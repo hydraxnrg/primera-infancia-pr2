@@ -1,37 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Recursos — Primera Infancia PR</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recursos – Primera Infancia PR</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Recursos</h1>
-      <nav>
+  <header class="header">
+    <div class="container header__content">
+      <div class="logo">
+        <span class="logo__icon">👶🏻</span>
+        <div class="logo__text">
+          <span class="logo__title">Primera Infancia PR</span>
+          <span class="logo__subtitle">Detección y apoyo 0–3 años</span>
+        </div>
+      </div>
+
+      <nav class="nav">
         <a href="index.html">Inicio</a>
-        <a href="recursos.html">Recursos</a>
+        <a href="recursos.html" class="nav__active">Recursos</a>
         <a href="directorio.html">Directorio</a>
         <a href="historias.html">Historias</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <h2>Guías y plantillas</h2>
-    <ul>
-      <li>Checklist por edad (0–6, 6–12, 12–18, 18–24, 24–36 meses).</li>
-      <li>Plantilla de observación (PDF/Word).</li>
-      <li>Cómo conversar con familias sobre señales de alerta.</li>
-      <li>Privacidad y ética en el registro de observaciones.</li>
-    </ul>
-    <p><em>Próximamente: enlaces de descarga.</em></p>
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>Recursos por edad</h2>
+          <p>
+            Aquí encontrarás ideas sencillas para observar, estimular y acompañar
+            a niños y niñas de 0 a 3 años desde el hogar, el centro o el salón.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--age">
+            <span class="tag">0–12 meses</span>
+            <h3>Primer año de vida</h3>
+            <p>
+              El vínculo, el contacto y la voz del adulto son el mejor estímulo.
+            </p>
+            <ul class="list list--compact">
+              <li>Responde a llanto y señales básicas.</li>
+              <li>Carga al bebé de diferentes formas, siempre con apoyo.</li>
+              <li>Cántale, háblale de lo que haces, nómbrale objetos.</li>
+              <li>Ofrece tiempos boca abajo siempre supervisados.</li>
+            </ul>
+          </article>
+
+          <article class="card card--age">
+            <span class="tag">12–24 meses</span>
+            <h3>Exploradores curiosos</h3>
+            <p>
+              Aparecen las primeras palabras, más movimiento y exploración.
+            </p>
+            <ul class="list list--compact">
+              <li>Nombrar todo lo que ve y hace: “vaso”, “agua”, “perro”.</li>
+              <li>Juegos de imitación: aplaudir, saludar, imitar sonidos.</li>
+              <li>Ofrecer bloques, recipientes, encajes grandes.</li>
+              <li>Dar opciones: “¿quieres más agua o jugo?”.</li>
+            </ul>
+          </article>
+
+          <article class="card card--age">
+            <span class="tag">24–36 meses</span>
+            <h3>“Yo solito”</h3>
+            <p>
+              El lenguaje aumenta y el juego simbólico se hace más evidente.
+            </p>
+            <ul class="list list--compact">
+              <li>Juego de roles: cocinar, cuidar muñecos, “ir de compras”.</li>
+              <li>Cuentos cortos y repetitivos con imágenes grandes.</li>
+              <li>Invitar a ordenar juguetes como parte del juego.</li>
+              <li>Nombrar y validar emociones: “estás bravo”, “estás feliz”.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="resources__actions">
+          <a href="#" class="btn btn--primary btn--small">
+            Descargar guía en PDF (próximamente)
+          </a>
+          <span class="resources__note">
+            Puedes transformar estas ideas en hojas imprimibles para las familias.
+          </span>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container"><small>© 2025 Primera Infancia PR</small></div>
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__left">
+        <p class="footer__title">Primera Infancia PR</p>
+        <p class="footer__text">
+          Recursos básicos para acompañar el desarrollo temprano.
+        </p>
+      </div>
+      <div class="footer__right">
+        <p class="footer__text">
+          Adapta estos recursos según tu realidad y las necesidades de tu comunidad.
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Primera Infancia PR</span>
+    </div>
   </footer>
 </body>
 </html>
+
