@@ -1,34 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Historias — Primera Infancia PR</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historias – Primera Infancia PR</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Historias</h1>
-      <nav>
+  <header class="header">
+    <div class="container header__content">
+      <div class="logo">
+        <span class="logo__icon">👶🏻</span>
+        <div class="logo__text">
+          <span class="logo__title">Primera Infancia PR</span>
+          <span class="logo__subtitle">Detección y apoyo 0–3 años</span>
+        </div>
+      </div>
+
+      <nav class="nav">
         <a href="index.html">Inicio</a>
         <a href="recursos.html">Recursos</a>
         <a href="directorio.html">Directorio</a>
-        <a href="historias.html">Historias</a>
+        <a href="historias.html" class="nav__active">Historias</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <h2>Testimonios</h2>
-    <article>
-      <h3>“Lo notamos a tiempo”</h3>
-      <p>Una familia registró observaciones semanales y obtuvo referido a intervención temprana. Hoy celebran cada progreso.</p>
-    </article>
+  <main>
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Historias que inspiran</h2>
+          <p>
+            Las experiencias de otras familias, educadores y profesionales
+            pueden ayudar a ver que no estamos solos en el proceso.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--story">
+            <h3>“Algo me decía que no era solo timidez”</h3>
+            <p>
+              Una madre nota que su hijo evita el contacto visual y no responde
+              a su nombre. Tras consultar con su pediatra y solicitar evaluación,
+              recibe apoyo de intervención temprana. Poco a poco, el niño
+              comienza a comunicarse más y a disfrutar el juego compartido.
+            </p>
+          </article>
+
+          <article class="card card--story">
+            <h3>La observación de la maestra</h3>
+            <p>
+              En un salón de Early Head Start, una educadora registra que un
+              niño repite el mismo juego por largos periodos y no responde a
+              cambios en la rutina. Comparte sus notas con la familia y juntos
+              buscan apoyo profesional.
+            </p>
+          </article>
+
+          <article class="card card--story">
+            <h3>“No fue fácil, pero no estamos solos”</h3>
+            <p>
+              Una familia recibe un diagnóstico que al principio genera miedo e
+              incertidumbre. Con el tiempo, encuentran una red de apoyo:
+              terapeutas, docentes y otros padres que viven procesos similares.
+              Descubren nuevas formas de celebrar cada avance.
+            </p>
+          </article>
+        </div>
+
+        <p class="section__note">
+          Puedes reemplazar estos textos por historias reales (sin nombres
+          completos) o crear un espacio para que las familias compartan sus
+          experiencias.
+        </p>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container"><small>© 2025 Primera Infancia PR</small></div>
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__left">
+        <p class="footer__title">Primera Infancia PR</p>
+        <p class="footer__text">
+          Historias y voces que acompañan el camino de la detección temprana.
+        </p>
+      </div>
+      <div class="footer__right">
+        <p class="footer__text">
+          Comparte este espacio con quienes puedan necesitar escuchar que no
+          están solos.
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Primera Infancia PR</span>
+    </div>
   </footer>
 </body>
 </html>
+
+
+ 
