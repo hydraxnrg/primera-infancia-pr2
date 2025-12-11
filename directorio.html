@@ -1,51 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Directorio — Primera Infancia PR</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Directorio – Primera Infancia PR</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Directorio</h1>
-      <nav>
+  <header class="header">
+    <div class="container header__content">
+      <div class="logo">
+        <span class="logo__icon">👶🏻</span>
+        <div class="logo__text">
+          <span class="logo__title">Primera Infancia PR</span>
+          <span class="logo__subtitle">Detección y apoyo 0–3 años</span>
+        </div>
+      </div>
+
+      <nav class="nav">
         <a href="index.html">Inicio</a>
         <a href="recursos.html">Recursos</a>
-        <a href="directorio.html">Directorio</a>
+        <a href="directorio.html" class="nav__active">Directorio</a>
         <a href="historias.html">Historias</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <h2>Servicios por región</h2>
-    <section class="grid">
-      <article>
-        <h3>Región Sur</h3>
-        <ul>
-          <li><strong>Ponce</strong> — Evaluación temprana — <em>Próximamente</em></li>
-          <li><strong>Juana Díaz</strong> — Head Start/EHS — <em>Próximamente</em></li>
-        </ul>
-      </article>
-      <article>
-        <h3>Región Metro</h3>
-        <ul>
-          <li><strong>San Juan</strong> — Directorio de servicios — <em>Próximamente</em></li>
-        </ul>
-      </article>
-      <article>
-        <h3>Región Oeste</h3>
-        <ul>
-          <li><strong>Mayagüez</strong> — Centros de evaluación — <em>Próximamente</em></li>
-        </ul>
-      </article>
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>Directorio de apoyo en Puerto Rico</h2>
+          <p>
+            Este directorio es un punto de partida. Verifica siempre la
+            información actualizada con cada agencia, programa o municipio.
+          </p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Programas y agencias</h3>
+            <ul class="list">
+              <li>Early Head Start / Head Start.</li>
+              <li>Programa de Intervención Temprana (0–3 años).</li>
+              <li>Departamentos de Educación Especial.</li>
+              <li>Centros de salud comunitaria y pediatras.</li>
+              <li>Programas municipales de familia y niñez.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Cómo prepararte antes de llamar</h3>
+            <ol class="list list--ordered">
+              <li>Anota la edad del niño o niña y lo que te preocupa.</li>
+              <li>Ten a mano tu información de contacto.</li>
+              <li>Haz una lista de preguntas (¿qué servicios ofrecen?, ¿costos?).</li>
+              <li>Pide claridad sobre el próximo paso y los tiempos aproximados.</li>
+            </ol>
+          </article>
+        </div>
+
+        <p class="section__note">
+          Puedes convertir esta sección en una tabla o mapa interactivo con
+          teléfonos y correos por región cuando tengas los datos específicos.
+        </p>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container"><small>© 2025 Primera Infancia PR</small></div>
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__left">
+        <p class="footer__title">Primera Infancia PR</p>
+        <p class="footer__text">
+          Directorio básico de apoyo para la primera infancia en Puerto Rico.
+        </p>
+      </div>
+      <div class="footer__right">
+        <p class="footer__text">
+          Actualiza esta información de forma periódica según nuevos recursos.
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Primera Infancia PR</span>
+    </div>
   </footer>
 </body>
 </html>
