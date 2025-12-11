@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Primera Infancia PR – Detección y Apoyo 0–3</title>
 
-  <!-- Tipografía Google Fonts -->
+  <!-- Tipografía -->
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
     rel="stylesheet"
   />
 
-  <!-- Hoja de estilos principal -->
-  <link rel="stylesheet" href="styles.css" />
+  <!-- Hoja de estilos (IMPORTANTE: style.css, sin S) -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Encabezado / Navegación -->
+  <!-- ENCABEZADO -->
   <header class="header">
     <div class="container header__content">
       <div class="logo">
@@ -27,61 +27,58 @@
       </div>
 
       <nav class="nav">
-        <a href="#inicio">Inicio</a>
-        <a href="#porque">¿Por qué 0–3?</a>
-        <a href="#senales">Señales de alerta</a>
-        <a href="#recursos">Recursos</a>
-        <a href="#directorio">Directorio</a>
-        <a href="#historias">Historias</a>
+        <a href="index.html" class="nav__active">Inicio</a>
+        <a href="recursos.html">Recursos</a>
+        <a href="directorio.html">Directorio</a>
+        <a href="historias.html">Historias</a>
         <a href="#accion" class="nav__cta">Actúa hoy</a>
       </nav>
     </div>
   </header>
 
-  <!-- HERO / Portada -->
-  <section id="inicio" class="hero">
+  <!-- HERO -->
+  <section class="hero" id="inicio">
     <div class="container hero__grid">
       <div class="hero__text">
         <h1>Detección temprana, futuros más fuertes.</h1>
         <p>
-          Primera Infancia PR es una iniciativa creada para apoyar a
-          <strong>familias, educadores y cuidadores</strong> en la detección
-          temprana de señales de alerta en niños de 0 a 3 años en Puerto Rico.
+          <strong>Primera Infancia PR</strong> es una iniciativa creada en Puerto Rico
+          para acompañar a familias, educadores y cuidadores en la
+          <strong>detección temprana</strong> de señales de alerta en niños de 0 a 3 años.
         </p>
 
         <div class="hero__buttons">
-          <a href="#recursos" class="btn btn--primary">Ver recursos por edad</a>
-          <a href="#directorio" class="btn btn--outline">Buscar ayuda en mi zona</a>
+          <a href="recursos.html" class="btn btn--primary">Ver recursos por edad</a>
+          <a href="directorio.html" class="btn btn--outline">Buscar ayuda en mi zona</a>
         </div>
 
         <p class="hero__note">
-          Pequeñas señales hoy pueden marcar una gran diferencia mañana.
+          Pequeñas observaciones hoy pueden marcar una gran diferencia mañana.
         </p>
       </div>
 
       <div class="hero__card">
         <h2>¿Qué puedes hacer hoy?</h2>
         <ul>
-          <li>Observar con intención el desarrollo de tu niño o niña.</li>
-          <li>Registrar dudas, avances y preocupaciones.</li>
-          <li>Consultar nuestro directorio de servicios especializados.</li>
-          <li>Pedir ayuda a tiempo: no estás solo/a.</li>
+          <li>Observar con intención el desarrollo diario de tu niño o niña.</li>
+          <li>Anotar dudas, avances, palabras nuevas y conductas que te preocupen.</li>
+          <li>Hablar con tu pediatra o educadora sobre lo que observas.</li>
+          <li>Consultar el directorio de servicios disponibles en Puerto Rico.</li>
         </ul>
-        <a href="#accion" class="hero__link">Ir al plan de acción →</a>
+        <a href="#accion" class="hero__link">Ver plan de acción →</a>
       </div>
     </div>
   </section>
 
-  <!-- ¿Por qué 0–3? -->
-  <section id="porque" class="section section--alt">
+  <!-- POR QUÉ 0-3 -->
+  <section class="section section--alt">
     <div class="container">
       <div class="section__header">
-        <h2>¿Por qué enfocarnos en los 0–3 años?</h2>
+        <h2>¿Por qué enfocarnos en la primera infancia?</h2>
         <p>
-          Durante los primeros 3 años de vida el cerebro se desarrolla a una
-          velocidad única. Es la ventana de oro para
-          <strong>detectar retrasos</strong> y ofrecer
-          <strong>apoyo adecuado</strong>.
+          Los primeros 3 años de vida son una ventana de oro para el desarrollo
+          del cerebro. Es el mejor momento para
+          <strong>detectar a tiempo</strong> y ofrecer apoyo adecuado.
         </p>
       </div>
 
@@ -89,41 +86,38 @@
         <article class="card">
           <h3>Desarrollo acelerado</h3>
           <p>
-            Más del 80% del desarrollo cerebral ocurre en los primeros años.
-            Las experiencias tempranas influyen en lenguaje, conducta,
-            aprendizaje y vínculo afectivo.
+            La mayor parte del desarrollo cerebral ocurre en estos años. Lo que
+            el niño vive ahora impacta lenguaje, conducta y aprendizaje futuro.
           </p>
         </article>
 
         <article class="card">
-          <h3>Intervención oportuna</h3>
+          <h3>Intervención temprana</h3>
           <p>
-            Actuar temprano facilita que los niños alcancen su máximo potencial.
-            La intervención a tiempo suele ser
-            <strong>más efectiva y menos costosa</strong>.
+            Actuar temprano suele ser más efectivo y menos costoso. Permite
+            que los niños alcancen su máximo potencial.
           </p>
         </article>
 
         <article class="card">
-          <h3>Apoyo a las familias</h3>
+          <h3>Acompañar a las familias</h3>
           <p>
-            Un diagnóstico o una sospecha no define a tu hijo. Las familias
-            informadas pueden tomar decisiones con calma, acompañadas de una
-            red de apoyo.
+            Un diagnóstico, sospecha o referencia no define a tu hijo. La
+            información y el apoyo crean caminos, no etiquetas.
           </p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Señales de alerta por áreas -->
-  <section id="senales" class="section">
+  <!-- SEÑALES BÁSICAS -->
+  <section class="section">
     <div class="container">
       <div class="section__header">
         <h2>Señales de alerta que no debemos ignorar</h2>
         <p>
-          Estas listas no reemplazan una evaluación profesional, pero pueden
-          ayudarte a decidir cuándo buscar orientación.
+          Estas listas no reemplazan una evaluación profesional, pero te ayudan
+          a saber cuándo conviene consultar.
         </p>
       </div>
 
@@ -131,8 +125,8 @@
         <article class="card">
           <h3>Comunicación</h3>
           <ul class="list">
-            <li>No balbucea o hace sonidos a los 9–10 meses.</li>
-            <li>No dice palabras sencillas (mamá, agua) cerca de los 18 meses.</li>
+            <li>No balbucea o hace pocos sonidos a los 9–10 meses.</li>
+            <li>No dice palabras sencillas cerca de los 18–24 meses.</li>
             <li>Parece no reaccionar a su nombre o a sonidos fuertes.</li>
           </ul>
         </article>
@@ -140,184 +134,36 @@
         <article class="card">
           <h3>Interacción social</h3>
           <ul class="list">
-            <li>Evita el contacto visual de manera constante.</li>
-            <li>No responde a sonrisas ni gestos sociales.</li>
-            <li>Parece “estar en su mundo” con frecuencia.</li>
+            <li>Evita constantemente el contacto visual.</li>
+            <li>No responde a sonrisas o juegos sencillos (cucú-tras).</li>
+            <li>Parece desconectado o “en su mundo” frecuentemente.</li>
           </ul>
         </article>
 
         <article class="card">
           <h3>Motor y juego</h3>
           <ul class="list">
-            <li>No sostiene la cabeza a los 4 meses.</li>
-            <li>No se sienta sin apoyo alrededor de los 9 meses.</li>
+            <li>No sostiene cabeza a los 4 meses.</li>
+            <li>No se sienta sin apoyo cerca de los 9 meses.</li>
             <li>Juego muy repetitivo o movimientos extraños y rígidos.</li>
           </ul>
         </article>
       </div>
-
-      <p class="section__note">
-        Si alguna de estas señales te preocupa, consulta el directorio de
-        servicios o habla con tu pediatra. <strong>Pedir ayuda no es exagerar.</strong>
-      </p>
     </div>
   </section>
 
-  <!-- Recursos por edad -->
-  <section id="recursos" class="section section--alt">
-    <div class="container">
-      <div class="section__header">
-        <h2>Recursos por edad</h2>
-        <p>
-          Guías simples para observar el desarrollo y estimular a tu niño o
-          niña desde casa, en el salón o en el centro.
-        </p>
-      </div>
-
-      <div class="grid grid--3">
-        <article class="card card--age">
-          <span class="tag">0–12 meses</span>
-          <h3>Primer año de vida</h3>
-          <p>
-            Vínculo, contacto, voz, canciones y rutinas predecibles son la base
-            de todo.
-          </p>
-          <ul class="list list--compact">
-            <li>Guía rápida de hitos del primer año.</li>
-            <li>Ideas de juego sensorial sencillo.</li>
-            <li>Señales de alerta para compartir con el pediatra.</li>
-          </ul>
-        </article>
-
-        <article class="card card--age">
-          <span class="tag">12–24 meses</span>
-          <h3>Exploradores curiosos</h3>
-          <p>
-            Movimiento, lenguaje emergente y más intención en el juego.
-          </p>
-          <ul class="list list--compact">
-            <li>Lista de palabras y gestos esperados.</li>
-            <li>Actividades de imitación, causa y efecto.</li>
-            <li>Ideas para ampliar vocabulario en casa.</li>
-          </ul>
-        </article>
-
-        <article class="card card--age">
-          <span class="tag">24–36 meses</span>
-          <h3>“Yo solito”</h3>
-          <p>
-            Más independencia, juego simbólico y explosión de lenguaje.
-          </p>
-          <ul class="list list--compact">
-            <li>Checklist de desarrollo 2–3 años.</li>
-            <li>Propuestas de juego de roles y narración.</li>
-            <li>Cómo apoyar la autorregulación emocional.</li>
-          </ul>
-        </article>
-      </div>
-
-      <div class="resources__actions">
-        <a href="#" class="btn btn--primary btn--small">Descargar guía en PDF</a>
-        <span class="resources__note">(Próximamente disponible)</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Directorio -->
-  <section id="directorio" class="section">
-    <div class="container">
-      <div class="section__header">
-        <h2>Directorio de apoyo en Puerto Rico</h2>
-        <p>
-          Usa este directorio como punto de partida para conectar con
-          servicios especializados. Verifica siempre la información más
-          reciente con cada agencia o municipio.
-        </p>
-      </div>
-
-      <div class="grid grid--2">
-        <article class="card">
-          <h3>Programas y agencias</h3>
-          <ul class="list">
-            <li>Early Head Start / Head Start</li>
-            <li>Programa de Intervención Temprana (PR)</li>
-            <li>Departamentos de Educación Especial</li>
-            <li>Centros de salud comunitaria y pediatras</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h3>Cómo usar este directorio</h3>
-          <ol class="list list--ordered">
-            <li>Identifica tu municipio o región.</li>
-            <li>Anota teléfonos y correos de contacto.</li>
-            <li>Prepara una lista de preguntas o preocupaciones.</li>
-            <li>Pide orientación sobre el próximo paso.</li>
-          </ol>
-        </article>
-      </div>
-
-      <p class="section__note">
-        Puedes transformar esta sección en un mapa interactivo o una lista de
-        enlaces por región cuando tengas todos los datos listos.
-      </p>
-    </div>
-  </section>
-
-  <!-- Historias -->
-  <section id="historias" class="section section--alt">
-    <div class="container">
-      <div class="section__header">
-        <h2>Historias que inspiran</h2>
-        <p>
-          La detección temprana no es un diagnóstico final, es una puerta
-          abierta a nuevas oportunidades para cada familia.
-        </p>
-      </div>
-
-      <div class="grid grid--3">
-        <article class="card card--story">
-          <h3>“Algo me decía que no era solo timidez”</h3>
-          <p>
-            Una madre cuenta cómo notar que su hijo evitaba el contacto visual
-            la llevó a buscar ayuda. Hoy, con apoyo terapéutico, ha avanzado
-            mucho en lenguaje y juego social.
-          </p>
-        </article>
-
-        <article class="card card--story">
-          <h3>La maestra que preguntó a tiempo</h3>
-          <p>
-            En un salón de Early Head Start, una educadora observó patrones de
-            juego repetitivo y compartió sus notas con la familia. Juntos
-            solicitaron evaluación y apoyo.
-          </p>
-        </article>
-
-        <article class="card card--story">
-          <h3>“No fue fácil, pero no estamos solos”</h3>
-          <p>
-            Padres relatan cómo el miedo inicial se transformó en alivio al
-            encontrar profesionales que escucharan, explicaran y acompañaran el
-            proceso de intervención temprana.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Llamado a la acción -->
-  <section id="accion" class="section section--cta">
+  <!-- CTA ACTÚA HOY -->
+  <section class="section section--cta" id="accion">
     <div class="container section__header section__header--center">
       <h2>Actúa hoy por la primera infancia</h2>
       <p>
-        No necesitas tener todas las respuestas. El primer paso es observar,
-        registrar y hablar con alguien de confianza.
+        No tienes que tener todas las respuestas. El primer paso es observar,
+        anotar lo que ves y hablar con alguien de confianza.
       </p>
 
       <div class="hero__buttons hero__buttons--center">
-        <a href="#recursos" class="btn btn--primary">Explorar recursos</a>
-        <a href="#directorio" class="btn btn--outline">Buscar servicios</a>
+        <a href="recursos.html" class="btn btn--primary">Explorar recursos</a>
+        <a href="directorio.html" class="btn btn--outline">Buscar servicios</a>
       </div>
 
       <p class="section__note">
@@ -327,20 +173,20 @@
     </div>
   </section>
 
-  <!-- Pie de página -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer__content">
       <div class="footer__left">
         <p class="footer__title">Primera Infancia PR</p>
         <p class="footer__text">
-          Proyecto educativo creado en Puerto Rico para apoyar a familias,
+          Proyecto educativo desarrollado en Puerto Rico para apoyar a familias,
           educadores y profesionales de la primera infancia.
         </p>
       </div>
       <div class="footer__right">
         <p class="footer__text">
-          Puedes adaptar, mejorar o expandir este sitio según las necesidades de
-          tu comunidad educativa.
+          Puedes adaptar, mejorar o expandir esta página según las necesidades
+          de tu comunidad.
         </p>
       </div>
     </div>
