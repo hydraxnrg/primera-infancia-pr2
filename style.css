@@ -146,6 +146,10 @@ body {
   background-color: var(--color-primary-dark);
 }
 
+.nav__active {
+  background-color: rgba(226, 232, 240, 0.9);
+}
+
 /* ---------- Hero ---------- */
 .hero {
   padding: 4rem 0 4.5rem;
